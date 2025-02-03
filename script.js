@@ -20,9 +20,9 @@ btn.addEventListener('click', () => {
     let { leftRandom, topRandom, rotate, imgRandom } = getRandom();
     img.src = imgRandom;
     img.alt = "Image not found";
-    img.style.height = '130px';
+    img.style.height = '10px';
     img.style.opacity = '0'; 
-    img.style.transform = `scale(0.5) ${rotate}deg`; 
+    img.style.transform = `scale(0.5) `; 
     img.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
     img.style.position = 'absolute';
     img.style.left = `${leftRandom}%`;
@@ -34,6 +34,6 @@ btn.addEventListener('click', () => {
    
     setTimeout(() => {
         img.style.opacity = '1';
-        img.style.transform = 'scale(1) rotate(360deg)';
-    }, 50);
+        img.style.transform = 'scale(18) rotate(360deg)';
+    }, 10);
 });

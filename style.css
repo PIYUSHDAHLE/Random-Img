@@ -26,7 +26,13 @@ button{
     z-index: 12121;
 }
 
+button:hover{
+    background-color: green;
+}
+
 button:active{
     transform: translate(-50%,-50%) scale(0.9);
+    background-color: rgb(115, 21, 46);
+    cursor: pointer;
 }
 
