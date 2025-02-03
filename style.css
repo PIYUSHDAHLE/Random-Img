@@ -8,11 +8,16 @@ height: 100%;
 width: 100%;
 }
 
+body{
+    background-color: rgb(202, 249, 233);
+    overflow: hidden;
+}
 button{
     background-color: purple;
     color: white;
     padding: 10px 30px;
     border: none;
+    font-size: 25px;
     border-radius: 10px;
     position: absolute;
     left: 50%;
